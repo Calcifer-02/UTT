@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UTT/static/css/main.d666adfd.css",
+    "main.js": "/UTT/static/js/main.6737fb72.js",
+    "static/js/787.529a4090.chunk.js": "/UTT/static/js/787.529a4090.chunk.js",
+    "static/media/plus.svg": "/UTT/static/media/plus.1b6e657e26d1111ee75c7b05752438f2.svg",
+    "static/media/remove.svg": "/UTT/static/media/remove.e85428a6c46d4ebfec86afe5ef300549.svg",
+    "static/media/search.svg": "/UTT/static/media/search.27bb3d3a7c3d1d471a2e344cee81178d.svg",
+    "static/media/return.svg": "/UTT/static/media/return.df2aa51051924417496103aa09f8c6e3.svg",
+    "static/media/edit.svg": "/UTT/static/media/edit.0ac1025f7407c2c4700ebf62ce17950c.svg",
+    "index.html": "/UTT/index.html",
+    "static/media/confirm.svg": "/UTT/static/media/confirm.4a8247bd929fd1c662fcdfb1f289e44a.svg",
+    "static/media/theme.svg": "/UTT/static/media/theme.75ad86a59ac3f9e2f8a8b4a1a28e8a7a.svg",
+    "main.d666adfd.css.map": "/UTT/static/css/main.d666adfd.css.map",
+    "main.6737fb72.js.map": "/UTT/static/js/main.6737fb72.js.map",
+    "787.529a4090.chunk.js.map": "/UTT/static/js/787.529a4090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d666adfd.css",
+    "static/js/main.6737fb72.js"
+  ]
+}
