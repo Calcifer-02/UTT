@@ -1,0 +1,81 @@
+@import "App";
+
+.wrapper {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0px 0px 0px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: $color-first;
+  margin: 0;
+}
+
+.line {
+  display: flex;
+  height: 0px;
+
+  border: 1px solid $color-first;
+  margin: 0px 20px;
+  margin: 12px 0px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+
+  .projectGrid {
+    display: grid;
+    gap: 8px;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+
+    .span {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .content .projectGrid {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    display: block;
+
+    .projectGrid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .content .projectGrid {
+    grid-template-columns: 1fr;
+  }
+}
